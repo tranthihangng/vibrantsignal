@@ -67,9 +67,10 @@ This project implements a complete pipeline for equipment condition monitoring:
 ## Model Information
 
 The system classifies equipment states into categories:
-- normal0: Normal operating condition
-- rung5_18: Fault condition type 1
-- rung10_1: Fault condition type 2
+- stop: the motor stops working
+- normal: Normal operating condition
+- rung_6: Fault condition type 1
+- rung_12_5: Fault condition type 2
 
 The model is a neural network trained with:
 - Cross-validation for reliable performance estimation
