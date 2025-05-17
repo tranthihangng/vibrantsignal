@@ -1,0 +1,61 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Màu sắc cho các trạng thái */
+.table-success {
+    background-color: #d4edda !important;
+}
+
+.table-warning {
+    background-color: #fff3cd !important;
+}
+
+.table-danger {
+    background-color: #f8d7da !important;
+}
+
+/* Animation cho cập nhật */
+@keyframes highlight {
+    0% {
+        background-color: #fff;
+    }
+
+    50% {
+        background-color: #e9ecef;
+    }
+
+    100% {
+        background-color: #fff;
+    }
+}
+
+.status-updated {
+    animation: highlight 1s ease-in-out;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .table td,
+    .table th {
+        padding: 8px;
+    }
+}
